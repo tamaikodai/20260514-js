@@ -1,0 +1,28 @@
+@charset "utf-8";
+
+/* 表示調整用スタイル */
+body{
+	min-height: auto;
+	margin-top: 100px;
+}
+
+dl{
+	width: 300px;
+}
+
+dt{
+	color: #fff;
+	background-color: #777;
+	text-align: center;
+}
+
+dt:hover{
+	cursor: pointer;
+	opacity: .8;
+}
+
+dd{
+	padding: 8px;
+	margin: 0;
+	background-color: #ddd;
+}
